@@ -1,8 +1,3 @@
----
-layout: page
-title: Build
----
-
 ## eun031006.github.io
 > blog project 과정을 기술합니다.
 > [blog 주소](https://eun031006.github.io/)
