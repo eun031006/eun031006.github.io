@@ -1,5 +1,6 @@
 ## eun031006.github.io
 > blog project 과정을 기술합니다.
+> [blog 주소](https://eun031006.github.io/)
 
 ### 1. Github Page 시작
 
@@ -46,6 +47,7 @@ git push origin main
 Repository Settings > Pages > eun031006.github.io로 접속
 
 7. index.html 입력 내용이 제대로 뜨는지 확인
+   
 ![image](https://user-images.githubusercontent.com/106921541/204574603-8758f795-0781-4751-a71d-ff428306e9f5.png)
 
 ### 2. Local Repository에서 Jekyll 시작 후 Remote Reposity에 반영
@@ -93,6 +95,62 @@ Rocal Repository의 commit 정보를 Remote Repository에 반영
 
 ### 3. MongoDB 정리 업로드
 
+1. `Add file`에서 `Create new file` 선택하여 직접 생성  
+   
+2. `_posts`에 `YYYY-MM-DD-TITLE.md` 형식으로 지정
+  
+3. 생성한 `2022-11-20-MongoDB 정리.md`에 포스트 작성
+```
+---
+layout: post
+title: "MongoDB 정리"
+date:   2022-11-20 20:24:09 +0900
+categories: update
+---
+   
+내용 작성
+   
+```
+
+다음 형식으로 포스트 시작 후 내용 작성
+   
+4. `Commit new file`을 클릭하여 포스트 발행
+   
 ### 4. Markdown 업로드
+   
+1. `Add file`에서 `Create new file` 선택하여 직접 생성  
+   
+2. `_posts`에 `YYYY-MM-DD-TITLE.md` 형식으로 지정
+  
+3. 생성한 `2022-11-29-Markdown.md`에 포스트 작성
+```
+---
+layout: post
+title: "Markdown"
+date:   2022-11-29 20:00:09 +0900
+categories: update
+---
+   
+내용 작성
+   
+```
+
+다음 형식으로 포스트 시작 후 내용 작성
+   
+4. `Commit new file`을 클릭하여 포스트 발행
 
 ### 5. 테마 적용
+
+1. jekyll theme 고르기
+[jekyll theme site](http://jekyllthemes.org/)
+   
+2. 테마 다운로드 후 복사하여 github.io 폴더에 붙여넣기
+
+_posts 제외하고 테마를 덮여쓴다.
+   
+3. git rm/add 를 통해 변경사항 반영할 파일들 지정
+   
+4. Remote Repository에 git push 하기
+   
+### 6. 댓글 기능 추가
+   
