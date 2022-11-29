@@ -159,3 +159,64 @@ _posts 제외하고 테마를 덮여쓴다.
    
 ### 6. 댓글 기능 추가
    
+1. Disqus 가입
+
+2. 블로그에 Disqus 반영
+
+```
+comment:
+  provider: "disqus"
+  disqus:
+    shortname: "eun031006-github-io"
+```
+
+- _config.yml 에 다음 내용 추가
+
+```
+{% include post.html %}
+<h2>Comments</h2>
+<div id="disqus_thread"></div>
+<script>
+    /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT 
+     *  THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR 
+     *  PLATFORM OR CMS.
+     *  
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: 
+     *  https://disqus.com/admin/universalcode/#configuration-variables
+     */
+    let PAGE_URL = "{{site.url}}{{page.url}}"
+    let PAGE_IDENTIFIER = "{{page.url}}"
+    var disqus_config = function () {
+        // Replace PAGE_URL with your page's canonical URL variable
+        this.page.url = PAGE_URL;  
+        
+        // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        this.page.identifier = PAGE_IDENTIFIER; 
+    };
+    
+    (function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
+        var d = document, s = d.createElement('script');
+        
+        // IMPORTANT: Replace EXAMPLE with your forum shortname!
+        s.src = 'https://eun031006-github-io.disqus.com/embed.js';
+        
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>
+    Please enable JavaScript to view the 
+    <a href="https://disqus.com/?ref_noscript" rel="nofollow">
+        comments powered by Disqus.
+    </a>
+</noscript>
+```
+
+- _layouts/post.html 에 Disqus 홈페이지에서 복사한 Universal Code 추가 후 수정
+
+- _posts 속 포스트에 `comments: true` 지정하여 댓글 허용
+
+![image](https://user-images.githubusercontent.com/106921541/204600389-bf999c0e-a434-4c1c-8e82-fb24fd84bf97.png)
+
+- 댓글 기능 추가된 결과 
