@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Build
 ---
 
 ## eun031006.github.io
