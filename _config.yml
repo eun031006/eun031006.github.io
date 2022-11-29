@@ -37,7 +37,7 @@ tag_dir: tag/
 comment:
   privider:        "disqus"
   disqus:
-    shortname:     "super-corini"
+    shortname:     "eun031006-github-io"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
