@@ -6,6 +6,7 @@
 2. Local-Remote Repository 연동
 
 -clone
+
 3. index.html 작성
 
 ### 2. Local Repository에서 Jekyll 시작 후 Remote Reposity에 반영
