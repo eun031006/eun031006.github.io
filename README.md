@@ -1,9 +1,3 @@
----
-//layout: page
-//title: About
-//permalink: /about/
----
-
 ## eun031006.github.io
 > Simple and lightweight theme for Jekyll
 
