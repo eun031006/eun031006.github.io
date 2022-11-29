@@ -13,8 +13,8 @@ title: About
 
 2. Local-Remote Repository 연동
 
--Remote Repository 주소 복사
--git clone <repo_name><path>
+- Remote Repository 주소 복사
+- git clone <repo_name><path>
 
 3. index.html 작성
 ```
