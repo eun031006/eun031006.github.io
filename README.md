@@ -1,10 +1,10 @@
 ---
-layout: page
-title: About
-permalink: /about/
+//layout: page
+//title: About
+//permalink: /about/
 ---
 
-## Theme Monos
+## eun031006.github.io
 > Simple and lightweight theme for Jekyll
 
 ### Features
