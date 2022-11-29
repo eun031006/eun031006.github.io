@@ -22,6 +22,29 @@
 </html>
 ```
 
+4. git commit 남기기
+```
+git add index.html
+```
+
+```
+git commit -m "add: index.html"
+```
+
+5. git push 로 Remote Repository에 반영하기
+```
+git branch -M main
+```
+
+```
+git push origin main
+```
+
+6. Github Page 설정 확인
+Repository Settings > Pages > eun031006.github.io로 접속
+
+7. index.html 입력 내용이 제대로 뜨는지 확인
+
 ### 2. Local Repository에서 Jekyll 시작 후 Remote Reposity에 반영
 
 ### 3. MongoDB 정리 업로드
