@@ -46,6 +46,7 @@ git push origin main
 Repository Settings > Pages > eun031006.github.io로 접속
 
 7. index.html 입력 내용이 제대로 뜨는지 확인
+![image](https://user-images.githubusercontent.com/106921541/204574603-8758f795-0781-4751-a71d-ff428306e9f5.png)
 
 ### 2. Local Repository에서 Jekyll 시작 후 Remote Reposity에 반영
    
